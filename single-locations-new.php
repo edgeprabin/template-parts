@@ -181,6 +181,7 @@ while ( have_posts() ) :
                 </div>
             </div>
         </div> 
+
         <?php /* Promotion */ ?>
         <div class="container m-auto">
             <div>
@@ -196,35 +197,33 @@ while ( have_posts() ) :
                 <a href="">Book a Tour</a>
             </div>
         </div>
+    
 
         <?php /* Description */ ?>
-        <div class="container m-auto">
-            <h2>
+        <div class="container m-auto max-w-[1440px] md:px-8 py-6 md:py-8">
+            <h2 class="text-lg md:text-3xl lg:text-4xl mb-6 md:mb-8 text-center md:text-left lg:text-center text-[#1AA39C] font-black">
                 Explore our Childcare & Kindergarten.
             </h2>
-            <div>
-                <div>
-                    <img src="https://www.busybees.edu.au/uploads/2019/05/Busy-Bees-Bellmere_Researchers_193757_1200px.webp" alt="">
-                    <img src="https://www.busybees.edu.au/uploads/2019/05/Busy-Bees-Bellmere_Researchers_193757_1200px.webp" alt="">
-                    <img src="https://www.busybees.edu.au/uploads/2019/05/Busy-Bees-Bellmere_Researchers_193757_1200px.webp" alt="">
+            <div class="flex flex-col md:flex-row lg:gap-20 md:gap-14 gap-8 justify-between items-stretch">
+                <div class="flex items-stretch w-full h-content flex-1">
+                    <img class="object-cover md:rounded-3xl shadow" src="https://www.busybees.edu.au/uploads/2019/05/Busy-Bees-Bellmere_Researchers_193757_1200px.webp" alt="">
+                    <!-- <img src="https://www.busybees.edu.au/uploads/2019/05/Busy-Bees-Bellmere_Researchers_193757_1200px.webp" alt="">
+                    <img src="https://www.busybees.edu.au/uploads/2019/05/Busy-Bees-Bellmere_Researchers_193757_1200px.webp" alt=""> -->
                 </div>
-                <div>
+                <div class="flex-1 px-6 md:px-0">
                     <p>
-                        Looking for childcare they’ll adore? Busy Bees at Altona Meadows is on the south-west of
-                        Melbourne in the suburb of Altona Meadows.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Metus dictum at tempor commodo.
                     </p>
+                    
+                    <p>Volutpat maecenas volutpat blandit aliquam etiam erat velit. Adipiscing tristique risus nec feugiat in fermentum posuere. Egestas dui id ornare arcu. Lobortis mattis aliquam faucibus purus. Dui vivamus arcu felis bibendum ut tristique et egestas. Arcu cursus vitae congue mauris rhoncus. Diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus. </p>
                     <p>
-                        Come see our state-of-the-art facilities including nurturing learning environments, an
-                        adventurous playground — with sandpit, slide, fort, climbing equipment, cubby houses and a
-                        community garden — and an expertly designed Kindergarten.
-                    </p>
-                    <p>
-                        Book an obligation-free tour to explore our Altona Meadows Childcare and Kindergarten, and meet
-                        the team.
+                        velit. Adipiscing tristique risus nec feugiat in fermentum posuere. Egestas dui id ornare arcu. Lobortis mattis aliquam faucibus purus. Dui vivamus arcu felis bibendum ut tristique et egestas. Arcu cursus vitae congue mauris rhoncus. Diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus. s purus. Dui vivamus arcu felis bibendum ut tristique et egestas. Arcu cursus vitae congue mauris rhoncus. Diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus. </p>
                     </p>
                 </div>
             </div>
         </div>
+            
+   
 
         <?php /* Buzzworth Features */ ?>
         <div>
