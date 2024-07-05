@@ -183,23 +183,30 @@ while ( have_posts() ) :
         </div> 
 
         <?php /* Promotion */ ?>
-        <div class="container m-auto">
-            <div>
-                <h3>
-                    25% Discount
-                    on Mondays & Fridays*
+        <section class="w-full  bg-[#1AA39C] py-12 mt-8 ">
+        <div class="container max-w-[1440px] m-auto flex flex-row gap-8 justify-center">
+            
+            <div class="">
+                <h3 class="bg-[url('https://www.busybees.edu.au//uploads/2024/07/whitebg.svg')] bg-no-repeat bg-contain w-full py-8 px-8">
+                    25% Discount <br>
+                        on Mondays & Fridays*
                 </h3>
-                *T&Cs Apply
+            <p class="text-white text-sm">*T&Cs Apply</p>  
             </div>
-            <div>
-                <h3>Limited Time Offer</h3>
-                <a href="">Learn More</a>
-                <a href="">Book a Tour</a>
+            
+           
+            <div class="">
+                <h3 class="text-3xl text-white">Limited Time Offer <span class="text-[#FECD1B]">.</span></h3>
+                <div class="flex flex-col gap-4">
+                    <a class="btn-pacific" href="#">Book a Tour</a>
+                    <a class="btn-yellow" href="#">Enquire Now</a>
+                </div>
             </div>
         </div>
+    </section>
     
 
-        <?php /* Description */ ?>
+        <?php /* Description Section Image Left Text Right*/ ?>
         <div class="container m-auto max-w-[1440px] md:px-8 py-6 md:py-8">
             <h2 class="text-lg md:text-3xl lg:text-4xl mb-6 md:mb-8 text-center md:text-left lg:text-center text-[#1AA39C] font-black">
                 Explore our Childcare & Kindergarten.
