@@ -110,13 +110,13 @@ while ( have_posts() ) :
 
         <?php /* Vacancies Mobile Section */ ?>
         <div class="md:hidden px-6 -mt-12">
-            <div class="relative bg-white rounded-3xl shadow-box w-full p-8">
-                <div class="w-64 absolute -top-5 left-1/2 bg-white rounded-full border-solid border-2 border-pacific text-sm font-bold -translate-x-1/2 py-2 px-8">
-                    <i class="fas fa-check fa-lg text-pacific mr-3"></i>
+            <div class="relative bg-white rounded-3xl shadow-box w-full sm:px-8 py-8 px-6">
+                <div class="sm:w-60 w-[85%] absolute sm:-top-5 -top-6 left-1/2 bg-white rounded-full border-solid border-2 border-pacific text-xs text-center font-bold -translate-x-1/2 py-3 px-8">
+                    <i class="fas fa-check fa-lg text-pacific mr-2"></i>
                     Vacancies Available
                 </div>
 
-                <div class="w-full flex flex-col sm:flex-row gap-4">
+                <div class="w-full flex flex-wrap flex-col sm:flex-row sm:gap-4 gap-3 sm:mt-0 mt-2">
                     <a class="btn-pacific" href="#">
                         Book a Tour
                     </a>
@@ -174,7 +174,7 @@ while ( have_posts() ) :
                         <div class="w-32">
                             <img src="https://www.busybees.edu.au/uploads/2022/11/meeting-png-crop.png" alt="">
                         </div>
-                        <div class="w-32 mt-4">
+                        <div class="w-32 sm:mt-4">
                             <img class="w-full" src="https://www.busybees.edu.au//uploads/2024/07/kindergarten.png" alt="">
                         </div>
                     </div>
