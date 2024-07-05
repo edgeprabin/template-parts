@@ -186,12 +186,13 @@ while ( have_posts() ) :
         <section class="w-full  bg-[#1AA39C] py-12 mt-8 ">
         <div class="container max-w-[1440px] m-auto flex flex-row gap-8 justify-center">
             
-            <div class="">
+            <div class="relative">
                 <h3 class="bg-[url('https://www.busybees.edu.au//uploads/2024/07/whitebg.svg')] bg-no-repeat bg-contain w-full py-8 px-8">
                     25% Discount <br>
                         on Mondays & Fridays*
                 </h3>
             <p class="text-white text-sm">*T&Cs Apply</p>  
+            <img class="absolute -top-10 -left-12 w-64" src="https://www.busybees.edu.au//uploads/2024/07/icon-light-yellow.svg" alt="" />
             </div>
             
            
