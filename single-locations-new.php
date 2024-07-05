@@ -109,7 +109,7 @@ while ( have_posts() ) :
         </div>
 
         <?php /* Vacancies Mobile Section */ ?>
-        <div class="md:hidden px-6">
+        <div class="md:hidden px-6 -mt-12">
             <div class="relative bg-white rounded-3xl shadow-box w-full p-8">
                 <div class="w-64 absolute -top-5 left-1/2 bg-white rounded-full border-solid border-2 border-pacific text-sm font-bold -translate-x-1/2 py-2 px-8">
                     <i class="fas fa-check fa-lg text-pacific mr-3"></i>
@@ -124,7 +124,7 @@ while ( have_posts() ) :
                         Enquire Now
                     </a>
                 </div>
-                <div class="flex flex-col w-full">
+                <div class="flex flex-col w-full gap-2 mt-5">
                     <a class="text-left text-inherit hover:text-black" href="tel:1300 851 331">
                         <i class="fas fa-fw fa-phone-alt mr-1"></i>
                         1300 851 331
@@ -133,8 +133,52 @@ while ( have_posts() ) :
                         <i class="far fa-fw fa-envelope mr-1"></i>
                         Email Centre
                     </a>
+                   
+                    <div class="flex flex-row items center gap-2">
+                        <i class="far fa-clock fa-fw mt-1"></i>
+                        <div class="flex flex-col">
+                            <span>6.30am - 6.30pm </span>
+                            <span> Monday – Friday</span>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-2">
+                        <i class="fas fa-fw fa-map-marker-alt mt-1"></i>
+                        <div>
+                            <span>19 – 21 Point Cook Road, Altona Meadows VIC 3028</span>
+                            <div class="flex flex-row gap-2">
+                                <i class="fas fa-parking"></i>
+                                <i class="fas fa-subway"></i>
+                                <i class="fas fa-bus"></i>
+                                <i class="fas fa-wheelchair"></i>
+                            </div>  
+                        </div>  
+                    </div> 
+                    <div>
+                            <i class="fas fa-fw fa-arrow-right"></i>
+                            Send contact details via SMS
+                        </div>
+                        <div>
+                            <i class="far fa-fw fa-star"></i>
+                            Long day care 0 – 6 years
+                        </div>
+                        <div>
+                            <i class="far fa-fw fa-star"></i>
+                            Kindergarten 3 – 6 years
+                        </div>
+                    <div>
+                        <i class="fas fa-star fa-fw text-bb-yellow mr-1"></i>
+                        <span class="font-bold">4.9</span> (28 reviews)
+                    </div>
+                    <div class="flex flex-wrap flex-row justify-center items-center gap-4">
+                        <div class="w-32">
+                            <img src="https://www.busybees.edu.au/uploads/2022/11/meeting-png-crop.png" alt="">
+                        </div>
+                        <div class="w-32 mt-4">
+                            <img class="w-full" src="https://www.busybees.edu.au//uploads/2024/07/kindergarten.png" alt="">
+                        </div>
+                    </div>
                 </div>
-                <h1> For Mobile only </h1>
             </div>
         </div> 
         <?php /* Promotion */ ?>
